@@ -1,0 +1,5 @@
+body {
+  height: 100%;
+  background-image: linear-gradient(to bottom right, black,#1a1a1a,black,#1a1a1a,black);
+  color: white
+}
