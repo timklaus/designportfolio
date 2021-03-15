@@ -17,7 +17,7 @@ body {
   background-image: url("/Users/timklaus/Desktop/Portfolio/img/nehalem.jpeg");
   width: 100vw;
   height: auto;
-  min-height:200px;
+  min-height: 800px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -26,5 +26,5 @@ body {
 
 #title {
   font-family: 'Abril Fatface';
-  font-size: 7vw;
+  font-size: 10vw;
 }
