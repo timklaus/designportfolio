@@ -5,7 +5,7 @@
   font-style: normal;
 }
 body {
-  background-image: linear-gradient(to bottom right, black,#171717,black,#171717,black);
+  background-image: linear-gradient(to bottom right, black,#0a0a0a,black,#0a0a0a,black);
   height: 100%;
   margin: 0;
   background-repeat: no-repeat;
@@ -27,4 +27,20 @@ body {
 #title {
   font-family: 'Abril Fatface';
   font-size: 10vw;
+}
+
+#navbar {
+  background-image: url("/Users/timklaus/desktop/Portfolio/img/titlebanner.jpeg");
+  width: 100vw;
+  height: auto;
+  max-height: 12vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+#sticky {
+  position: fixed;
+  top: 0;
 }
