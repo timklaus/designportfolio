@@ -26,21 +26,22 @@ body {
 
 #title {
   font-family: 'Abril Fatface';
-  font-size: 10vw;
+  font-size: 8vw;
+  padding-top: 5vw;
+  padding-bottom: 5vw;
 }
 
 #navbar {
   background-image: url("/Users/timklaus/desktop/Portfolio/img/titlebanner.jpeg");
   width: 100vw;
   height: auto;
-  max-height: 12vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
 }
 
-#sticky {
+.sticky {
   position: fixed;
   top: 0;
 }
