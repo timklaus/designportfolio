@@ -41,6 +41,7 @@ body {
   #hero {
     height: 100vw;
     width: auto;
+    max-width: 600px;
   }
 }
 
