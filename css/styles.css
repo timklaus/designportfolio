@@ -30,7 +30,6 @@ body {
   background-image: url("nehalem.jpeg");
   width: 100vw;
   height: auto;
-  min-height: 800px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
