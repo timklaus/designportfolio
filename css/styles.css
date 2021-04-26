@@ -4,6 +4,19 @@
   font-weight: normal;
   font-style: normal;
 }
+
+#navbar {
+  background-image: url("/Users/timklaus/desktop/Portfolio/img/titlebanner.jpeg");
+  width: 100vw;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  margin-bottom: 15vw;
+  border-bottom: 5px solid #0a0a0a;
+}
+
 body {
   background-image: linear-gradient(to bottom right, black,#0a0a0a,black,#0a0a0a,black);
   height: 100%;
@@ -34,10 +47,16 @@ body {
 .headline {
   font-family: 'Abril Fatface';
   font-size: 5vw;
-}
+  margin-right: 2vw;
+  padding-right: 2vw;
+  text-align: right;
+  position: relative;
+ }
 
 .vertical-line {
   border-right: 2px solid white;
+  padding-left: 2vw;
+  padding-right: 2vw;
 }
 
 .teaser {
@@ -45,22 +64,13 @@ body {
   height: auto;
   padding-top: 1vw;
   padding-bottom: 1vw;
-}
-
-#navbar {
-  background-image: url("/Users/timklaus/desktop/Portfolio/img/titlebanner.jpeg");
-  width: 100vw;
-  height: auto;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  overflow: hidden;
-  margin-bottom: 15vw;
+  padding-left: 2vw;
 }
 
 .sticky {
   position: fixed;
   top: 0;
+  z-index: 1;
 }
 
 .topblock {
