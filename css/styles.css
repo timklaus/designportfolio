@@ -6,7 +6,7 @@
 }
 
 #navbar {
-  background-image: url("/Users/timklaus/desktop/Portfolio/img/titlebanner.jpeg");
+  background-image: url("titlebanner.jpeg");
   width: 100vw;
   height: auto;
   background-position: center;
@@ -27,7 +27,7 @@ body {
 }
 
 #hero {
-  background-image: url("/Users/timklaus/Desktop/Portfolio/img/nehalem.jpeg");
+  background-image: url("nehalem.jpeg");
   width: 100vw;
   height: auto;
   min-height: 800px;
