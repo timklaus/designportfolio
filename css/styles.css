@@ -39,9 +39,11 @@ body {
 
 @media only screen and (max-width:600px) {
   .hero {
-    height: 800px;
-    width: auto;
-    background-size: 800px;
+    max-height: 0px;
+    max-width: 600px;
+    width: 100vw;
+    height: auto;
+    background-size: 100vw auto;
     background-position: top;
   }
 }
