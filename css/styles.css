@@ -39,11 +39,9 @@ body {
 
 @media only screen and (max-width:600px) {
   .hero {
-    max-height: 0px;
-    max-width: 600px;
-    width: 100vw;
-    height: auto;
-    background-size: 100vw auto;
+    background-image: url("nehalemmobile.jpg");
+    background-size: 800px;
+    background-attachment: fixed;
     background-position: top;
   }
 }
