@@ -30,10 +30,18 @@ body {
   background-image: url("nehalem.jpeg");
   width: 100vw;
   height: auto;
+  min-height: 800px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+@media only screen and (max-width:600px) {
+  #hero {
+    height: 100vw;
+    width: auto;
+  }
 }
 
 #title {
@@ -82,4 +90,10 @@ body {
   text-align: center;
   padding: 2vw;
   color: slategray;
+}
+
+.mailicon {
+  height: 5vw;
+  width: auto;
+  align-content: normal;
 }
