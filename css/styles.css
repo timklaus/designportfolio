@@ -41,7 +41,7 @@ body {
   .hero {
     height: 100vw;
     width: auto;
-    min-height: 100px;
+    min-height: none;
   }
 }
 
