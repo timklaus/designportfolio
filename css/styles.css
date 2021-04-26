@@ -31,6 +31,22 @@ body {
   padding-bottom: 3vw;
 }
 
+.headline {
+  font-family: 'Abril Fatface';
+  font-size: 5vw;
+}
+
+.vertical-line {
+  border-right: 2px solid white;
+}
+
+.teaser {
+  width: 60vw;
+  height: auto;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+}
+
 #navbar {
   background-image: url("/Users/timklaus/desktop/Portfolio/img/titlebanner.jpeg");
   width: 100vw;
