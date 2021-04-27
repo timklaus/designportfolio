@@ -37,10 +37,10 @@ body {
   background-size: cover;
 }
 
-@media only screen and (max-width:600px) {
+@media screen and (max-width:600px) {
   .hero {
     background-image: url("nehalemmobile.jpg");
-    background-size: 800px;
+    background-size: contain;
     background-attachment: fixed;
     background-position: top;
   }
