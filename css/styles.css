@@ -39,11 +39,25 @@ body {
 
 
 
-#title {
+.title {
+  display: block;
   font-family: 'Abril Fatface';
   font-size: 6.5vw;
   padding-top: 3vw;
   padding-bottom: 3vw;
+  float: left;
+}
+
+.mailicon {
+  display: block;
+  float: right;
+  padding-top: 3vw;
+}
+
+.mailiconsize {
+  height: 10vw;
+  width: auto;
+
 }
 
 .headline {
@@ -87,8 +101,3 @@ body {
   color: slategray;
 }
 
-.mailicon {
-  height: 5vw;
-  width: auto;
-  align-content: normal;
-}
