@@ -13,4 +13,11 @@ $(document).ready(function() {
       $('#navmargin').removeClass('topblock');
     }
   });
+
+$( "#codingimg" ).click(function(){
+  swal( "I coded this website myself.", {
+    icon: "success",
+    buttons: ["Neat!", "Let's see your Github, hotshot."] });
+});
+
 });
