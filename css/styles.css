@@ -13,7 +13,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
-  margin-bottom: 15vw;
+  margin-bottom: 10vw;
   border-bottom: 5px solid #0a0a0a;
 }
 
@@ -42,20 +42,23 @@ body {
 .title {
   display: block;
   font-family: 'Abril Fatface';
-  font-size: 6.5vw;
-  padding-top: 3vw;
-  padding-bottom: 3vw;
+  font-size: 4vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  padding-left: 2vw;
   float: left;
 }
 
 .mailicon {
   display: block;
   float: right;
-  padding-top: 3vw;
+  padding-top: 1vw;
+  padding-right: 2vw;
+
 }
 
 .mailiconsize {
-  height: 10vw;
+  height: 5vw;
   width: auto;
 
 }
@@ -84,8 +87,8 @@ body {
 
 .topblock {
   position: inherit;
-  height: 14.25vw;
-  padding-top: 14.25vw;
+  height: 10vw;
+  padding-top: 10vw;
 }
 
 .spacerblock {

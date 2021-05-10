@@ -4,7 +4,7 @@ $(document).ready(function() {
       //console.log($(window).scrollTop())
     if ($(window).scrollTop() > 799) {
       $('#navbar').addClass('sticky');
-      $('body').css('padding-top', '14.25vw'); 
+      $('body').css('padding-top', '8.25vw'); 
       $('#navmargin').addClass('topblock');
     }
     if ($(window).scrollTop() < 800) {
