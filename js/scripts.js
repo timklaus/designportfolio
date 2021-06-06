@@ -16,8 +16,21 @@ $(document).ready(function() {
 
 $( "#codingimg" ).click(function(){
   swal( "I coded this website myself.", {
-    icon: "success",
-    buttons: ["Neat!", "Let's see your Github, hotshot."] });
+    icon: "info",
+    buttons: {
+      cancel: "Neat!",
+      redirect: { 
+        text: "Let's see your Github, hotshot.",
+        value: "redirect",
+      },
+       },
+      })
+       .then((value) => {
+        switch (value) {
+          case "redirect":
+            window.location.href ="https://github.com/timklaus"
+        }
+       })
 });
 
 });
