@@ -1,4 +1,4 @@
-# *Portland Evening Intro to Programming Group Project*  
+# *Tim Klaus' Complete Portfolio*  
 ### *Project Author:* Tim Klaus  
 #### _April, 2021_
 
