@@ -104,3 +104,6 @@ body {
   color: slategray;
 }
 
+img:hover {
+  opacity: 0.8;
+}
