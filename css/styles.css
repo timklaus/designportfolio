@@ -17,6 +17,13 @@
   border-bottom: 5px solid #0a0a0a;
 }
 
+#contactform {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 14px;
+  background: #ececec;
+}
+
 body {
   background-image: linear-gradient(to bottom right, black,#0a0a0a,black,#0a0a0a,black);
   height: 100%;
@@ -49,16 +56,12 @@ body {
   float: left;
 }
 
-.mailicon {
+#mailicon {
   display: block;
   float: right;
-  padding-top: 1vw;
+  padding-top: 2vw;
   padding-right: 2vw;
-
-}
-
-.mailiconsize {
-  height: 5vw;
+  height: 6vw;
   width: auto;
 
 }
@@ -107,3 +110,7 @@ body {
 img:hover {
   opacity: 0.8;
 }
+
+.swal2-popup {
+  font-size: 2rem;
+  }

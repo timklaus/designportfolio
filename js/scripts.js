@@ -14,6 +14,11 @@ $(document).ready(function() {
     }
   });
 
+  $('#mailicon').click(function(){
+    console.log("It has been clicked")  
+    $("#contactform").modal("show")
+  });
+
 $( "#codingimg" ).click(function(){
   swal( "I coded this website myself.", {
     icon: "info",
