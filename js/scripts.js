@@ -15,8 +15,8 @@ $(document).ready(function() {
   });
 
   $('#mailicon').click(function(){
-    console.log("It has been clicked")  
     $("#contactform").modal("show")
+    console.log("It has been clicked")  
   });
 
 $( "#codingimg" ).click(function(){

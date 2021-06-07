@@ -6,9 +6,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet"> 
     <script src="js/jquery-3.4.1.js"></script>
-    <script src="js/scripts.js"></script>
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="js/scripts.js"></script>
     <title>Tim Klaus</title>
   </head>
 </html>
@@ -19,28 +19,6 @@
     <div class="container">
       <span h1 class="title">Tim Klaus</span h1>
       <span> <img id="mailicon" src="img/mailicon.png" data-toggle="modal" data-target="#contactform"></span>
-    </div>
-    <div id="contactform" class="modal fade" role="dialog">
-      <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal">&times;</button>
-              <h4 class="modal-title">Let's get in touch.</h4>
-            </div>
-            <div class="modal-body">
-              <form id="MyForm" action="" method="post">
-                  <label>Enter Name</label>
-                <input type="text" name="name" placeholder="Enter your name" class="form-control"/><br>
-                  <label>Enter Email</label>
-                <input type="email" name="email" placeholder="Enter your email" class="form-control"/><br>
-                  <button type="button" class="btn btn-default" name="submit">Submit</button>
-              </form>
-            </div>   
-            <div class="modal-footer">
-              <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>                        
-            </div>
-          </div>
-      </div>
     </div>
   </div>
   <div id="navmargin">
@@ -61,7 +39,7 @@
     </div>
     <div class="row justify-content-end">
       <div class="col-9">
-        <img src="img/placeholder.png" class="teaser" alt="Teaser photo placeholder">
+        <img src="img/partyleague.jpeg" class="teaser" alt="Teaser photo Fall 2017 League poster">
       </div>
     </div>
   </Div>
@@ -111,6 +89,22 @@
       </div>
     </div>
     <div class="spacerblock">
+    </div>
+    <div id="contactform" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Modal Header</h4>
+          </div>
+          <div class="modal-body">
+            <p>Some text in the modal.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
     </div>
     <p class="footer">© 2021 Tim Klaus - All rights reserved. </p>
 </body>
