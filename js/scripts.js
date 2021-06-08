@@ -15,8 +15,8 @@ $(document).ready(function() {
   });
 
   $('#mailicon').click(function(){
-    $("#contactform").modal("show")
-    console.log("It has been clicked")  
+    console.log("It has been clicked")
+    window.location.href = "mailto:tjklaus91@gmail.com"  
   });
 
 $( "#codingimg" ).click(function(){
