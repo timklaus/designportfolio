@@ -34,10 +34,10 @@ body {
 }
 
 .hero {
-  background-image: url("nehalem.jpeg");
+  background-image: url("renault.jpeg");
   width: 100vw;
   height: auto;
-  min-height: 800px;
+  min-height: 1000px;
   background-attachment: fixed;
   background-position: top;
   background-repeat: no-repeat;
