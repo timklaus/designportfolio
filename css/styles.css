@@ -37,7 +37,6 @@ body {
   background-image: url("renault.jpeg");
   min-height: 1000px;
   width: 100vw;
-  max-width: 100vw;
   height: auto;
   background-attachment: fixed;
   background-position: top;
@@ -48,6 +47,7 @@ body {
 @media only screen and (max-device-width: 1366px) {
   .hero {
     background-attachment: scroll;
+    min-height:2000px;
   }
 }
 
