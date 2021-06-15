@@ -47,7 +47,7 @@ body {
 @media only screen and (max-device-width: 1366px) {
   .hero {
     background-attachment: scroll;
-    min-height:2000px;
+    min-height:1800px;
   }
 }
 
