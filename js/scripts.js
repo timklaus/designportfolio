@@ -1,7 +1,6 @@
 $(document).ready(function() {
   $(window).scroll(function () { 
     if ($(window).width()<1366) {
-      console.log("fixed background attachment")
       if ($(window).scrollTop() > 1799) {
         $('#navbar').addClass('sticky');
         $('body').css('padding-top', '8.25vw'); 
@@ -14,7 +13,6 @@ $(document).ready(function() {
       }
     }
     else {
-      console.log("fixed background attachment")
       if ($(window).scrollTop() > 999) {
         $('#navbar').addClass('sticky');
         $('body').css('padding-top', '8.25vw'); 
@@ -29,7 +27,7 @@ $(document).ready(function() {
   });
 
   $('#mailicon').click(function(){
-    console.log("It has been clicked")
+    //console.log("It has been clicked")
     window.location.href = "mailto:tjklaus91@gmail.com"  
   });
 

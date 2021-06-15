@@ -5,6 +5,11 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'NunitoSans';
+  src: url('fonts/NunitoSans.ttf') format('truetype');
+}
+
 #navbar {
   background-image: url("titlebanner.jpeg");
   width: 100vw;
@@ -16,6 +21,20 @@
   margin-bottom: 10vw;
   border-bottom: 5px solid #0a0a0a;
 }
+
+.navbartwo {
+    background-image: url("titlebanner.jpeg");
+    width: 100vw;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    margin-bottom: 10vw;
+    border-bottom: 5px solid #0a0a0a;
+    position: fixed;
+    top: 0;
+  }
 
 #contactform {
   width: 100%;
@@ -31,6 +50,23 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   color: white;
+}
+
+.home {
+  display: block;
+  font-family: 'Abril Fatface';
+  font-size: 4vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  padding-left: 2vw;
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+.home:hover {
+  color: white;
+  opacity: 80%;
 }
 
 .hero {
@@ -78,6 +114,24 @@ body {
   text-align: right;
  }
 
+ .pageheadline {
+  display: block;
+  font-family: 'Abril Fatface';
+  font-size: 5vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  text-align: center;
+ }
+
+ .pagecopy {
+   font-family: 'NunitoSans-Regular';
+   font-size: 2.5vw;
+   text-align: justify;
+
+ }
+
 .teaser {
   width: 60vw;
   height: auto;
@@ -116,6 +170,3 @@ img:hover {
   opacity: 0.8;
 }
 
-.swal2-popup {
-  font-size: 2rem;
-  }
