@@ -71,7 +71,7 @@ body {
 
 .hero {
   background-image: url("nehalem.jpeg");
-  min-height: 1000px;
+  min-height: 800px;
   width: 100vw;
   height: auto;
   background-attachment: fixed;
@@ -83,7 +83,7 @@ body {
 @media only screen and (max-device-width: 1366px) {
   .hero {
     background-attachment: scroll;
-    min-height:1800px;
+    min-height:1200px;
   }
 }
 
@@ -123,6 +123,15 @@ body {
   padding-left: 5vw;
   padding-right: 5vw;
   text-align: center;
+ }
+
+ .pagesubheadline {
+   display: block;
+   font-family: 'Abril Fatface';
+   font-size: 3.5vw;
+   padding-left: 5vw;
+   padding-right: 5vw;
+   text-align: center;
  }
 
  .pagecopy {
