@@ -141,6 +141,12 @@ body {
 
  }
 
+.posterimage {
+  width: 800px;
+  height: auto;
+  padding: 2vw;
+}
+
 .teaser {
   width: 60vw;
   height: auto;
